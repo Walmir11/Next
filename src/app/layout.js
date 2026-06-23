@@ -1,5 +1,6 @@
-import 'global.css';
-import Header from './components/Header';
+import './globals.css';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Meu Blog',
@@ -14,6 +15,9 @@ export default function RootLayout({ children }) {
         <main className="container mx-auto p-4">
           {children}
         </main>
+        <footer className="bg-gray-800 text-white p-4 mt-8">
+          <Footer />
+        </footer>
       </body>
     </html>
   );

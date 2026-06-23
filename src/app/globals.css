@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* coloca footer no final da página */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+
+}
